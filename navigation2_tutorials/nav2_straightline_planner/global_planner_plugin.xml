@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<library path="nav2_straightline_planner_plugin">
+  <class name="nav2_straightline_planner::StraightLine"
+         type="nav2_straightline_planner::StraightLine"
+         base_class_type="nav2_core::GlobalPlanner">
+    <description>
+      Straight-line global planner plugin
+    </description>
+  </class>
+</library>
