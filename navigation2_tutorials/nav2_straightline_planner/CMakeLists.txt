@@ -60,6 +60,7 @@ target_compile_definitions(${library_name} PUBLIC "PLUGINLIB__DISABLE_BOOST_FUNC
 
 
 pluginlib_export_plugin_description_file(nav2_core global_planner_plugin.xml)
+pluginlib_export_plugin_description_file(nav2_core smac_plugin_2d.xml)
 
 install(TARGETS ${library_name}
   ARCHIVE DESTINATION lib
